@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Staj ve İş İlanı Panosu</title>
+  <script src="form.js" defer></script>
+  </script>
 </head>
 <body>
 
@@ -22,9 +24,48 @@
       <ul id="ilanlar"></ul>
     </section>
 
-    <section id="basvuru-bolumu">
+   <section id="basvuru-bolumu">
       <h2>Başvuru Formu</h2>
-      <!-- Formu Adım 2'de buraya ekleyeceğiz -->
+      <form id="basvuru">
+        <div>
+          <label for="ad-soyad">Ad soyad:</label>
+          <input type="text" id="ad-soyad" name="ad-soyad" required>
+        </div>
+
+        <div>
+          <label for="eposta">E-posta:</label>
+          <input type="email" id="eposta" name="eposta" required>
+        </div>
+
+        <div>
+          <label for="telefon">Cep telefonu:</label>
+          <input type="tel" id="telefon" name="telefon" pattern="05[0-9]{9}" title="05 ile başlayan 11 rakam giriniz (Örn: 05321234567)" required>
+        </div>
+
+        <div>
+          <label for="baglanti">GitHub ya da CV bağlantınız:</label>
+          <input type="url" id="baglanti" name="baglanti" placeholder="https://..." required>
+        </div>
+
+        <div>
+          <label for="ilgi-alani">İlgilendiğiniz alan:</label>
+          <select id="ilgi-alani" name="ilgi-alani" required>
+            <option value="">Seçiniz</option>
+            <option value="on-yuz">Ön yüz</option>
+            <option value="arka-uc">Arka uç</option>
+            <option value="veri">Veri</option>
+            <option value="sistem">Sistem</option>
+          </select>
+        </div>
+
+        <div>
+          <input type="checkbox" id="onay" name="onay" required>
+          <label for="onay">Bilgilerimin bu başvuru için kullanılmasını kabul ediyorum.</label>
+        </div>
+
+        <button type="submit">Başvuruyu Gönder</button>
+      </form>
+      <p id="basvuru-ileti" role="status"></p>
     </section>
   </main>
 
