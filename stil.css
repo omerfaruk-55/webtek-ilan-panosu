@@ -121,3 +121,35 @@ footer {
   color: #6c757d;
   border-top: 1px solid var(--kenarlik);
 }
+
+/* Adım 4: Duyarlı İlan Izgarası ve Kart Stilleri */
+#ilanlar {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+#ilanlar li {
+  background-color: var(--arka-plan);
+  border: 1px solid var(--kenarlik);
+  border-top: 4px solid var(--ana);
+  border-radius: 6px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#ilanlar li h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--ana);
+  font-size: 1.15rem;
+}
+
+#ilanlar li p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
