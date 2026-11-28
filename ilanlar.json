@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "pozisyon": "Ön Yüz Geliştirici Stajyer",
+    "firma": "Martı Yazılım",
+    "alan": "on-yuz",
+    "tur": "staj",
+    "sehir": "Sakarya",
+    "sonBasvuru": "2027-01-15",
+    "aciklama": "HTML, CSS ve JavaScript ile şirket içi panellerin arayüzünü geliştirecek yaz stajyeri."
+  },
+  {
+    "id": 2,
+    "pozisyon": "Arka Uç Geliştirici",
+    "firma": "Kervan Bulut",
+    "alan": "arka-uc",
+    "tur": "is",
+    "sehir": "İstanbul",
+    "sonBasvuru": "2026-12-31",
+    "aciklama": "REST servisleri yazacak, veritabanı tasarımına katkı verecek yeni mezun."
+  },
+  {
+    "id": 3,
+    "pozisyon": "Veri Analisti Stajyer",
+    "firma": "Ayva Analitik",
+    "alan": "veri",
+    "tur": "staj",
+    "sehir": "Ankara",
+    "sonBasvuru": "2027-02-01",
+    "aciklama": "Satış verilerini temizleyip tablolara ve grafiklere dönüştürecek stajyer."
+  },
+  {
+    "id": 4,
+    "pozisyon": "Sistem Yöneticisi Yardımcısı",
+    "firma": "Çınar Sistem",
+    "alan": "sistem",
+    "tur": "is",
+    "sehir": "Kocaeli",
+    "sonBasvuru": "2027-01-10",
+    "aciklama": "Linux sunucuların bakımı, yedekleme ve kullanıcı desteği."
+  },
+  {
+    "id": 5,
+    "pozisyon": "Web Arayüz Geliştirici",
+    "firma": "Lale Web Stüdyosu",
+    "alan": "on-yuz",
+    "tur": "is",
+    "sehir": "İzmir",
+    "sonBasvuru": "2027-01-20",
+    "aciklama": "Duyarlı tasarım ve erişilebilirlik konusunda deneyimli geliştirici aranıyor."
+  },
+  {
+    "id": 6,
+    "pozisyon": "Servis Geliştirici Stajyer",
+    "firma": "Pusula Teknoloji",
+    "alan": "arka-uc",
+    "tur": "staj",
+    "sehir": "Sakarya",
+    "sonBasvuru": "2027-02-15",
+    "aciklama": "Mobil uygulamanın kullandığı servislerin yazılması ve sınanması."
+  },
+  {
+    "id": 7,
+    "pozisyon": "Veri Mühendisi",
+    "firma": "Defne Veri Laboratuvarı",
+    "alan": "veri",
+    "tur": "is",
+    "sehir": "İstanbul",
+    "sonBasvuru": "2027-01-05",
+    "aciklama": "Veri hatlarının kurulması ve raporlama altyapısının bakımı."
+  },
+  {
+    "id": 8,
+    "pozisyon": "Ağ ve Sistem Stajyeri",
+    "firma": "Fener Ağ Hizmetleri",
+    "alan": "sistem",
+    "tur": "staj",
+    "sehir": "Bursa",
+    "sonBasvuru": "2027-01-25",
+    "aciklama": "Kampüs ağının izlenmesi, cihaz envanteri ve kullanıcı desteği."
+  },
+  {
+    "id": 9,
+    "pozisyon": "Erişilebilirlik ve UI Geliştirici",
+    "firma": "Ada Dijital",
+    "alan": "on-yuz",
+    "tur": "is",
+    "sehir": "Sakarya",
+    "sonBasvuru": "2027-02-10",
+    "aciklama": "Modern CSS ve semantik HTML standartlarıyla kullanıcı dostu web arayüzleri geliştirecek ekip arkadaşı."
+  },
+  {
+    "id": 10,
+    "pozisyon": "Bulut Altyapı Stajyeri",
+    "firma": "Bozkır Teknoloji",
+    "alan": "sistem",
+    "tur": "staj",
+    "sehir": "Ankara",
+    "sonBasvuru": "2027-02-20",
+    "aciklama": "Konteyner teknolojileri ve otomasyon araçları üzerinde çalışacak sistem stajyeri."
+  }
+]
