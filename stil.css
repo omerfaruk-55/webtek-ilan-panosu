@@ -153,3 +153,28 @@ footer {
   margin: 0.25rem 0;
   font-size: 0.95rem;
 }
+
+/* Adım 6: Filtre Çubuğu Stilleri */
+.filtre-alani {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  background-color: var(--ana-acik);
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.filtre-alani input[type="search"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid var(--kenarlik);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#durum {
+  font-weight: 600;
+  color: var(--ana);
+  margin: 0.5rem 0;
+}
