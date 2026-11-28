@@ -178,3 +178,26 @@ footer {
   color: var(--ana);
   margin: 0.5rem 0;
 }
+
+/* Adım 7: Favoriler ve Buton Stilleri */
+.favori-filtre-kutu {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.4rem;
+  padding-bottom: 0.5rem;
+}
+
+.favori-buton {
+  margin-top: 0.75rem;
+  background-color: transparent;
+  color: var(--ana);
+  border: 1px solid var(--ana);
+  padding: 0.45rem 0.9rem;
+  font-size: 0.9rem;
+  align-self: flex-start;
+}
+
+.favori-buton.aktif {
+  background-color: var(--ana);
+  color: white;
+}
